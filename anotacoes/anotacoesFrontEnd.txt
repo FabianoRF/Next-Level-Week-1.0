@@ -1,0 +1,62 @@
+React 
+
+- É apenas o JavaScript que carrega a pagina, ou seja tudo entra no div root
+
+- o Primeiro arquivo aberso é o index.tsx ou js 
+
+- O react dom faz o contato com a arvore de elementos da pagina web, que atraves do reactDOM.render() rederizar o componente(arquivo) App
+
+- Jsx ou Tsx se trata de um arquivo js com XML
+
+- useEffect usado para dizer ao react quando deseja chamar uma função desejada
+    Seus parametros são 1 - A função, 2 - um array que quando vazio so executa uma vez e quando há um valor, todas as vezes que o meso fou chamado
+
+Componente: 
+
+- São usados para abstrair codigo e reaproveitar, criando funções eem arquivos separados e importando
+
+Propriedades:
+
+- São atributos que enviamos para o componente Ex: trocar um titulo com base no seu atributo
+
+Estados: 
+
+- São informações mantidas pelo proprio componente
+- Sempre que for criar um estado para array ou objeto, deve se informar manualmente o tipo da variavel que será armazenada
+
+Router-dom
+- Faz o roteamento das rotas a partir de varias formas, o Browse router é o mais utilizado para browser
+- Lembrar que o mesmo não faz a diferença entre o nome das rotas e somente o inicio ser igual com o caso da barra
+-tratar com exact nafrente da rota
+
+- Importar o componente Link do react router dom para usar no lugar do a sem ter de recarregar toda a aplicação
+
+Mapa
+
+- O mapa utilizado foi o leafLet
+- a biblioteca utilizada para integrar o mapa foi a react-leaflet
+- Para usá-lo:
+    1. O primeiro passo se trata de ir em tutoriais e compiar seu css
+    2. importar os componentes(os parametros do componente map são latitude, longitude e zoom)
+    3. No title layer colocar o laout do mapa, (alguns são gratuitos, o usado foi pego no site da biblioteca em getting started => exemplos)
+
+Axios: 
+
+- Biblio que faz a conversa com a api node onde basta colocar o baseurl do servidor
+
+Interface:
+
+- No codigo elas são usadas para especificar o tipo que será o retorno de uma dada chamada
+
+
+Geral:
+
+- Typescript react cheat sheet - git com as principais integraçoes do react com ts
+
+Comandos:
+
+- npm install react-icons - pacote de icones
+- npm install react-router-dom - lib de gerenciamento de rotas
+- npm install leaflet react-leaftlet- instala o mapa e a biblio react
+- npm install @types/react-leaflet -D - instala o types do leaflet
+- npm install axios - instala a biblio que conversa com o back

@@ -1,0 +1,65 @@
+Aplicação:
+
+entidades: 
+
+- itens(title, image)
+- points(image, name, email, whatsapp, latitude, longitude, city, uf) 
+- point_itens
+
+relacionamentos: itens n:n points
+
+Funcionalidades: 
+
+- Cadastro de ponto de Coleta(WEB)
+
+- lista de itens de Coleta(WEB)
+
+- listar pontos Filtros(cidade, estado, filtros)
+
+- listar um ponto de coleta especifico 
+
+TypeScript:
+
+- É um super set do JS, permitindo ao mesmo adicionar tipagem
+
+- Vale lembrar que a tipagem(Ou inferencia de tipos) é usada apenas na pequena parte dos casos, pois na maioria a liguagem ja faz
+
+- Em alguns momentos deve se adicionar a definição de tipos para açgumas bibliotecas funcinarem, como pe o caso do Express
+
+- Usando o ts é possivel acessar facilmente os recursos de alguma ferramenta atraves da inteligencia da IDE (exemplo do knex)
+
+Express:
+
+- micro framework para lidar com rotas
+
+React e SPA
+
+- Biblioteca para construção se interfaces
+- utilizado para Single Pages Aplications(SPA)
+- altera em tela as informações que serão diferentes
+- Tudo dentro do JS ou TS 
+- Vatagens de componetização ou seja a aplicação fica bem separada e organizada
+- DIvide o back end e o front end adequadamente pois um fica com a regra de negocio e o segundo com a interface
+
+
+Comandos Gerais
+
+*Instalando o node com typescript
+
+- npm init -y => cria um package.json default
+- npm install express
+- npm install @types/express -D - adiociona a definiçao de tipos como dependencia de desenvolvimento para o express( so é usada quando está em desenvolvimento)
+
+-nom install typescript -D
+-npm install ts-node -D => Instala o ts no node
+-npm install ts-node-dev => sempre que houver uma alteração ele atualiza o servidor
+
+*Instalando o React
+
+- npx create-react-app web --template=typescript => onde web é o nome da aplicação com esse comando instala também o template typescript
+
+Validação de Dados:
+
+- Validação para o Front- Yup
+
+- Validação para o Back - Celebrate

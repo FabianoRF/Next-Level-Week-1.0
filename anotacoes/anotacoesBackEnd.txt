@@ -1,0 +1,48 @@
+Rotas:
+
+- Endereco completo da requisicao
+- Recurso: qual entidade estamos acessando do sistema
+
+Metodos HTTP:
+
+GET: Buscar uma ou mais informações do backend
+Post: criar uma nova informação no backend
+PUT: Quer atualizar uma info existente
+DELETE: Remover uma informação do backend
+
+Parametros HTTP:
+
+-Request Param: Parametros que vem dentro de uma rota que identificam um recurso. Para acessa-los dentro de uma rota usa se request.params.id, (id é o nome que pode ser qualquer)
+
+- Query Params: São parametros opcionais, diferente do primeiro que é obrigatorio e vem na propria rota para filtros paginaçoes etc.
+
+- Request body: Parametros para criação e atualização de informações, úm corpo que pode ser json, xml, etc
+
+Knex: 
+
+- O arquivo connection criado para o knex deve conter um obj connection com o nome do clientee o caminho para sechegar ao banco de dados, no exerplo se usa o path para padronizar
+
+- Migrations se trata de um historico do banco de dados, ajuda a trabalhar com mais de um dev no projeto
+
+- Em cada migration criar uma função up e uma down a primeira para criar a tabela e segundo para voltar atras caso de erro
+
+- Uma seed pode ser usada para predefinir dados em um bd
+
+Observações:
+
+- Colocar sempre um return no final das rotas senão a mesma ficara executando
+- Para o express entender o JSON seve se usar app.use(express.json())
+- Cors- define quais urls terão acesso api
+
+Comandos:
+
+- npm knex - instala o knex
+- npx knex migrate:latest --knexfile knexfile.ts migrate:latest => roda o knexfile e o ultimo migrate
+
+Funcs avançadas:
+
+- npm install multer + npm install @types/multer => faz as confis de como será o upload da imagem(biblio de upload)
+- multer - pesquisar sobre o fileFilter que seleciona qual tipo de arquivo pode 
+- Serialização - também procurar sobre
+- npm install celebrate 
+- npm install @types__joi -D - ativa o intelisense do celebrate

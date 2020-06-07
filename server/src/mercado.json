@@ -1,0 +1,14 @@
+{
+	"name": "Mercado do seu zé",
+	"email": "contato@imperatriz.com.br",
+	"whatsapp": "3241234124",
+	"latitude":-45.3232232,
+	"longitude": -34.2322222,
+	"city": "Rio do Sul",
+	"uf":"SC",
+	"items": [
+		1,
+		2,
+		6
+	]
+} 

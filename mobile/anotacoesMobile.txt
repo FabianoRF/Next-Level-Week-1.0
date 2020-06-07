@@ -1,0 +1,25 @@
+Expo:
+
+- Escolher template na instalação
+- Cada componente contem um styles que é semelhante ao css mais com camel case, ou seja é um objeto de estilo
+- Sua sintaxe não eh tao importante quanto no html
+- A maioria se trata de text
+- Por padrão os elementos são display flex;
+- Colocar uma  tag em branco para delimitar algo permite retornar varios componentes de uma so vez  <>
+
+- Mail Composer
+
+    -acessar expo email composer para os passos de instalação
+
+Comandos: 
+
+- npm install -g expo-cli => instala o expo globalmente
+- expo init "nome do projeto" - inicia o projet
+- expo install expo-font @expo-google-fonts/ubuntu @expo-google-fonts/roboto - intala a fonte e para usa- las deve importar junto com o usFonts
+- npm install @react-navigation/native - Os demias estão disponiveis nas docs react navigation
+- npm install @react-navigation/stack - 
+
+- expo install react-native-maps - instala os mapas
+- expo install expo-constants
+- expo install react-native-svg - componente para colocar svg no projeto
+- expo install expo-location - da o acesso a toda parte de geolocalização
