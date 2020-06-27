@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "npx ts-node-dev --ignore-watch node_modules src/server.ts",
     "knex:seed": "knex --knexfile knexfile.ts seed:run",
-    "knex:migrate": "knex --knexfile knexfile.ts migrate:latest"
+    "knex:migrate": "knex --knexfile knexfile.ts migrate:latest",
+    "start": "npx ts-node src/server.ts"
   },
   "keywords": [],
   "author": "",
