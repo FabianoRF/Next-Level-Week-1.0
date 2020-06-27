@@ -39,6 +39,11 @@ Comandos:
 - npm knex - instala o knex
 - npx knex migrate:latest --knexfile knexfile.ts migrate:latest => roda o knexfile e o ultimo migrate
 
+Deploy
+
+- No heroku - Criar um arquivo Procfile
+- no Procfile: web: - significa o comando utilizado para iniciar a aplicação
+
 Funcs avançadas:
 
 - npm install multer + npm install @types/multer => faz as confis de como será o upload da imagem(biblio de upload)

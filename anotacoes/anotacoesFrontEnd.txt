@@ -60,3 +60,7 @@ Comandos:
 - npm install leaflet react-leaftlet- instala o mapa e a biblio react
 - npm install @types/react-leaflet -D - instala o types do leaflet
 - npm install axios - instala a biblio que conversa com o back
+
+Avançado: 
+
+- react DropZone- cria uma caixa para jogar arquivos dentro
